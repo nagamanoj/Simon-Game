@@ -1,0 +1,48 @@
+
+<html >
+<head>
+<title>Simon Game</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js">
+    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" crossorigin="anonymous">
+</head>
+    <body >
+        <div class="container">
+            
+            <h1 id="header">Simon Game</h1>
+            <label>Count</label>
+            <input id="count" class="input">
+            <button id="strict" class="btn">Strict</button>
+            <button id="start" class="btn">Start</button>
+            <button id="reset" class="btn">Reset</button>
+            <br>
+            
+            <br><ul>
+            <li></li>
+                <li id="1" class="green"></li>
+                <li id="2" class="red"></li><br/>
+                <li id="3" class="yellow"></li>
+                <li id="4" class="blue"></li>
+            </ul>
+            <audio id="greensound" preload="auto">
+                <source src="https://s3.amazonaws.com/freecodecamp/simonSound1.mp3"></source>
+            </audio>
+            <audio id="redsound" preload="auto">
+            <source src="https://s3.amazonaws.com/freecodecamp/simonSound2.mp3"></source>
+            </audio>
+            <audio id="yellowsound" preload="auto">
+            <source src="https://s3.amazonaws.com/freecodecamp/simonSound3.mp3"></source>
+            </audio>
+            <audio id="bluesound" preload="auto">
+            <source src="https://s3.amazonaws.com/freecodecamp/simonSound4.mp3"></source>
+            </audio>
+            <audio id="errorsound" preload="auto">
+                <source src="http://soundbible.com/121-Computer-Error.html"></source>
+            </audio>
+        </div>
+     
+    </body>
+</html>
